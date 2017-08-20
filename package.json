@@ -1,0 +1,37 @@
+{
+  "name": "2017universiade",
+  "version": "1.0.0",
+  "description": "2017 臺北世大運中華臺北賽事總整理",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "yarn install",
+    "dev-build": "node_modules/.bin/webpack",
+    "dev-watch": "node_modules/.bin/webpack --progress --colors --watch",
+    "build": "node_modules/.bin/webpack -p",
+    "watch": "node_modules/.bin/webpack -p --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kf99916/2017universiade.git"
+  },
+  "keywords": [
+    "世大運",
+    "臺北",
+    "台北",
+    "2017",
+    "中華臺北",
+    "中華台北"
+  ],
+  "author": "Zheng-Xiang Ke",
+  "license": "MIT",
+  "homepage": "https://kf99916.github.io/2017universiade/",
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "4.0.0-beta",
+    "css-loader": "~0.28",
+    "extract-text-webpack-plugin": "3.0",
+    "node-sass": "~4.5",
+    "sass-loader": "~6.0",
+    "webpack": "~3.5"
+  }
+}
