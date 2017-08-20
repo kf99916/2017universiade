@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: {
-        vendors: ['./src/sass/vendors.scss'],
+        vendors: ['./src/sass/vendors.scss', 'jquery', 'popper.js', 'bootstrap'],
         index: './src/sass/index.scss'
     },
     output: {
@@ -40,6 +40,11 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('css/[name].min.css'),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            Popper: 'popper.js'
+        }),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'vendors',
             minChunks: Infinity,
