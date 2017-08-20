@@ -50,6 +50,7 @@
         </div>
     </nav>
     <div class="container mt-3">
+        <div id="fb-root"></div>
         <div class="card text-center p-3">
             <h1>2017 臺北世大運中華臺北隊賽事總整理</h1>
             <table class="table table-hover table-sm table-bordered table-responsive mt-3">
@@ -211,6 +212,16 @@
             <small>僅供參考，所有賽事以<a href="https://www.2017.taipei/home/sports/fa2da188-655b-4c78-8258-4641a77a80c6" target="_blank"> 2017 臺北世大運所公布之賽事</a> 為準。</small>
         </div>
     </div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10&appId=392919200779860";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
 </html>
