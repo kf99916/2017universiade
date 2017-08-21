@@ -1,0 +1,371 @@
+{
+    "20": {
+        "baseball": [{
+            "time": "11:00",
+            "area": "臺北市天母棒球場",
+            "games": [{
+                "title": "A 組預賽",
+                "players": [{
+                    "country": "法國",
+                    "score": 4
+                }, {
+                    "country": "臺灣",
+                    "score": 3
+                }]
+            }]
+        }],
+        "volleyball": [{
+            "time": "20:00",
+            "area": "國立臺灣大學綜合體育館",
+            "games": [{
+                "title": "M1",
+                "players": [{
+                    "country": "臺灣",
+                    "score": 1
+                }, {
+                    "country": "法國",
+                    "score": 3
+                }]
+            }]
+        }],
+        "basketball": [{
+            "time": "20:00",
+            "area": "臺北小巨蛋",
+            "games": [{
+                "title": "M03",
+                "players": [{
+                    "country": "拉脫維亞"
+                }, {
+                    "country": "臺灣"
+                }]
+            }]
+        }],
+        "waterPolo": [{
+            "time": "10:20 - 11:40",
+            "area": "新竹縣游泳館",
+            "games": [{
+                "title": "M10",
+                "players": [{
+                    "country": "臺灣"
+                }, {
+                    "country": "法國"
+                }]
+            }]
+        }],
+        "soccer": [{
+            "time": "19:30 - 21:30",
+            "area": "輔仁大學體育場",
+            "games": [{
+                "title": "W09",
+                "players": [{
+                    "country": "臺灣"
+                }, {
+                    "country": "美國"
+                }]
+            }]
+        }],
+        "taekwondo": [{
+            "time": "13:30",
+            "area": "桃園市立體育館 B1",
+            "games": [{
+                "title": "跆拳道個人品勢"
+            }]
+        }],
+        "fencing": [{
+            "time": "09:00",
+            "area": "臺北南港展覽館一館 1F",
+            "games": [{
+                "title": "女子銳劍個人賽"
+            }]
+        }, {
+            "time": "15:30",
+            "area": "臺北南港展覽館一館 1F",
+            "games": [{
+                "title": "男子軍刀個人賽"
+            }]
+        }],
+        "competitiveGymnastics": [{
+            "time": "17:00 - 20:00",
+            "area": "臺北南港展覽館一館 4F",
+            "games": [{
+                "title": "男子第一競賽（資格賽與成隊決賽）"
+            }]
+        }],
+        "judo": [{
+            "time": "17:00",
+            "area": "新竹縣體育館",
+            "games": [{
+                "title": "女：70kg - 78kg／78kg+"
+            }, {
+                "title": "男：90kg - 100kg／100kg+"
+            }]
+        }],
+        "weightlifting": [{
+            "time": "19:00",
+            "area": "淡江大學紹謨紀念體育館 7 樓",
+            "games": [{
+                "title": "男子組 62kg A組（高展宏、黃鼎介）"
+            }]
+        }]
+    },
+    "21": {
+        "volleyball": [{
+            "time": "15:00",
+            "area": "國立臺灣大學綜合體育館",
+            "games": [{
+                "title": "W1",
+                "players": [{
+                    "country": "法國"
+                }, {
+                    "country": "臺灣"
+                }]
+            }]
+        }, {
+            "time": "20:00",
+            "area": "國立臺灣大學綜合體育館",
+            "games": [{
+                "title": "M11",
+                "players": [{
+                    "country": "美國"
+                }, {
+                    "country": "臺灣"
+                }]
+            }]
+        }],
+        "basketball": [{
+            "time": "20:00",
+            "area": "臺北小巨蛋",
+            "games": [{
+                "title": "M15",
+                "players": [{
+                    "country": "臺灣"
+                }, {
+                    "country": "匈牙利"
+                }]
+            }]
+        }, {
+            "time": "20:00",
+            "area": "臺北和平籃球館",
+            "games": [{
+                "title": "W01",
+                "players": [{
+                    "country": "臺灣"
+                }, {
+                    "country": "智利"
+                }]
+            }]
+        }],
+        "waterPolo": [{
+            "time": "09:00 - 10:20",
+            "area": "新竹縣游泳館",
+            "games": [{
+                "title": "M10",
+                "players": [{
+                    "country": "臺灣"
+                }, {
+                    "country": "英國"
+                }]
+            }]
+        }],
+        "tennis": [{
+            "time": "09:30",
+            "area": "臺北市網球中心",
+            "games": [{
+                "title": "男子單打64強",
+                "players": [{
+                    "name": "莊吉生"
+                } {
+                    "name": "李冠毅"
+                }]
+            }, {
+                "title": "女子單打64強",
+                "players": [{
+                    "name": "張凱貞"
+                }, {
+                    "name": "李亞軒"
+                }]
+            }]
+        }],
+        "soccers": [{
+            "time": "19:30 - 21:30",
+            "area": "輔仁大學體育場",
+            "games": [{
+                "title": "M13",
+                "players": [{
+                    "country": "臺灣"
+                }, {
+                    "country": "法國"
+                }]
+            }]
+        }],
+        "taekwondo": [{
+            "time": "09:00 - 12:00",
+            "area": "桃園市立體育館 B1",
+            "games": [{
+                "title": "男/女/混合團體品勢"
+            }]
+        }],
+        "diving": [{
+            "time": "10:00 - 11:55",
+            "area": "臺北市立大學天母校區詩欣館B1",
+            "games": [{
+                "title": "男子跳板1m預賽"
+            }]
+        }],
+        "fencing": [{
+            "time": "09:00",
+            "area": "臺北南港展覽館一館 1F",
+            "games": [{
+                "title": "男子銳劍個人賽",
+                "players": [{
+                    "name": "吳昱廷"
+                }, {
+                    "name": "陳宗霖"
+                }, {
+                    "name": "丁泓剴"
+                }, {
+                    "name": "莊博宇"
+                }]
+            }]
+        }, {
+            "time": "12:00",
+            "area": "臺北南港展覽館一館 1F",
+            "games": [{
+                "title": "女子鈍劍個人賽",
+                "players": [{
+                    "name": "程昕"
+                }, {
+                    "name": "蔡曉晴"
+                }, {
+                    "name": "陳令翊"
+                }, {
+                    "name": "楊謹蔓"
+                }]
+            }]
+        }],
+        "competitiveGymnastics": [{
+            "time": "16:00 - 18:00",
+            "area": "臺北南港展覽館一館 4F",
+            "games": [{
+                "title": "女子第一競賽（資格賽與成隊決賽）"
+            }]
+        }],
+        "judo": [{
+            "time": "12:00",
+            "area": "新竹縣體育館",
+            "games": [{
+                "title": "女：57 - 63kg",
+                "players": [{
+                    "name": "黃詩涵"
+                }]
+            }, {
+                "title": "女：63 - 70kg",
+                "players": [{
+                    "name": "商瑠羽"
+                }]
+            }, {
+                "title": "男：73 - 81kg",
+                "players": [{
+                    "name": "張蘶逞"
+                }]
+            }, {
+                "title": "男：81 - 90kg",
+                "players": [{
+                    "name": "謝哲維"
+                }]
+            }]
+        }],
+        "pulleySkating": [{
+            "time": "09:00 - 09:40",
+            "area": "迎風河濱公園溜冰場A",
+            "games": [{
+                "title": "男子300m計時賽—預賽",
+                "players": [{
+                    "name": "宋青陽"
+                }, {
+                    "name": "高茂傑"
+                }]
+            }]
+        }, {
+            "time": "09:00 - 10:30",
+            "area": "迎風河濱公園溜冰場A",
+            "games": [{
+                "title": "女子300m計時賽—預賽",
+                "players": [{
+                    "name": "陳映竹"
+                }, {
+                    "name": "李孟竹"
+                }]
+            }]
+        }, {
+            "time": "11:00 - 11:40",
+            "area": "迎風河濱公園溜冰場A",
+            "games": [{
+                "title": "男子10,000m計點淘汰賽-決賽",
+                "players": [{
+                    "name": "柯福軒"
+                }, {
+                    "name": "陳彥成"
+                }]
+            }]
+        }, {
+            "time": "14:00 - 15:30",
+            "area": "迎風河濱公園溜冰場A",
+            "games": [{
+                "title": "女子10,000m計點淘汰賽-決賽",
+                "players": [{
+                    "name": "楊合貞"
+                }, {
+                    "name": "李孟竹"
+                }]
+            }]
+        }],
+        "weightlifting": [{
+            "time": "14:00",
+            "area": "淡江大學紹謨紀念體育館 7 樓",
+            "games": [{
+                "title": "女子組 53kg A組",
+                "players": [{
+                    "name": "許淑淨"
+                }]
+            }],
+            "reason": "因傷退賽"
+        }, {
+            "time": "19:00",
+            "area": "淡江大學紹謨紀念體育館 7 樓",
+            "games": [{
+                "title": "女子組 58kg A組",
+                "players": [{
+                    "name": "郭婞淳"
+                }]
+            }]
+        }]
+    },
+    "22": {
+
+    },
+    "23": {
+
+    },
+    "24": {
+
+    },
+    "25": {
+
+    },
+    "26": {
+
+    },
+    "27": {
+
+    },
+    "28": {
+
+    },
+    "29": {
+
+    },
+    "30": {
+
+    }
+}

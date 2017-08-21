@@ -1,6 +1,5 @@
 @import 'color';
 body {
-    background-color: $background-gray-color;
     .table {
         th {
             vertical-align: middle;
@@ -13,6 +12,42 @@ body {
                 &:last-child {
                     border-bottom: 0px;
                     margin-bottom: inherit;
+                }
+            }
+        }
+    }
+    #schedule {
+        background-color: $background-gray-color !important;
+        #accordion {
+            .card {
+                background-color: inherit !important;
+                .card-header {
+                    background-color: $dark-color;
+                    a {
+                        color: $white-color;
+                    }
+                }
+                .card-body {
+                    font-size: .8rem;
+                    padding: .5rem;
+                    .row {
+                        margin-left: 0;
+                        margin-right: 0;
+                        padding-top: 0.5rem;
+                        padding-bottom: 0.5rem;
+                        .col-2,
+                        .col-3,
+                        .col-5 {
+                            padding-left: 0;
+                            padding-right: 0;
+                        }
+                        &.list-group-item-action {
+                            border-bottom: 1px solid $gray-color;
+                            &:last-child {
+                                border-bottom: none;
+                            }
+                        }
+                    }
                 }
             }
         }
