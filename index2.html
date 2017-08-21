@@ -91,6 +91,7 @@
             <div class="card" id="schedule">
                 <div class="card-body">
                     <h2><img src="assets/images/cap.png" alt="cap"> 臺灣隊賽事表</h2>
+                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#modal">找不到賽事？</button>
                     <div id="accordion" role="tablist">
                         <div class="card">
                             <div class="card-header" role="tab" id="headingOne">
@@ -792,6 +793,27 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">找不到賽事？</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <p>由於某些賽事在世大運官網上只有寫項目（如：羽球女單）未寫國家，因此難以得知臺灣有參與哪些項目，所以導致那些賽事是空白的。若有人知道，歡迎<a href="https://github.com/kf99916"
+                            target="_blank">與我聯絡</a>。此外，希望資工人一起開源，支持世大運，歡迎 <a href="https://github.com/kf99916/2017universiade"
+                            target="_blank">pull request</a>，幫忙修改或新增賽事！</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">了解了</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
