@@ -17,8 +17,14 @@ body {
             }
         }
     }
+    .btn-gray {
+        background-color: $background-gray-color;
+    }
     #schedule {
         background-color: $background-gray-color !important;
+        .card-body {
+            padding: .5rem;
+        }
         #accordion {
             .card {
                 background-color: inherit !important;
@@ -30,7 +36,6 @@ body {
                 }
                 .card-body {
                     font-size: .8rem;
-                    padding: .5rem;
                     .row {
                         margin-left: 0;
                         margin-right: 0;
