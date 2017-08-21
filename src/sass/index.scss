@@ -22,8 +22,11 @@ body {
     }
     #schedule {
         background-color: $background-gray-color !important;
-        .card-body {
-            padding: .5rem;
+        &.card {
+            border: none;
+            .card-body {
+                padding: .5rem;
+            }
         }
         #accordion {
             .card {
