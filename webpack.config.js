@@ -5,7 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: {
         vendors: ['./src/sass/vendors.scss', 'jquery', 'popper.js', 'bootstrap'],
-        index: './src/sass/index.scss'
+        index: ['./src/sass/index.scss', './src/js/index.js']
     },
     output: {
         path: path.resolve(__dirname, 'assets'),
