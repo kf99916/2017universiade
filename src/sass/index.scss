@@ -1,20 +1,53 @@
 @import 'color';
 body {
-    background-color: $background-gray-color;
-    .table {
-        th {
-            vertical-align: middle;
-            width: 2rem;
+    .btn-gray {
+        background-color: $background-gray-color;
+    }
+    #schedule {
+        background-color: $background-gray-color !important;
+        &.card {
+            border: none;
+            .card-body {
+                padding: .5rem;
+            }
         }
-        td {
-            div {
-                border-bottom: 1px solid;
-                margin-bottom: .5rem;
-                &:last-child {
-                    border-bottom: 0px;
-                    margin-bottom: inherit;
+        #accordion {
+            .card {
+                background-color: inherit !important;
+                .card-header {
+                    background-color: $dark-color;
+                    a {
+                        color: $white-color;
+                    }
+                    &.active {
+                        background-color: $blue-color;
+                    }
+                }
+                .card-body {
+                    font-size: .8rem;
+                    .row {
+                        margin-left: 0;
+                        margin-right: 0;
+                        padding-top: 0.5rem;
+                        padding-bottom: 0.5rem;
+                        .col-2,
+                        .col-3,
+                        .col-5 {
+                            padding-left: 0;
+                            padding-right: 0;
+                        }
+                        &.list-group-item-action {
+                            border-bottom: 1px solid $gray-color;
+                            &:last-child {
+                                border-bottom: none;
+                            }
+                        }
+                    }
                 }
             }
         }
+    }
+    footer {
+        background-color: $background-gray-color;
     }
 }
